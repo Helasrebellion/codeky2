@@ -45,27 +45,27 @@ const ImageGallery = () => {
   const images = [
     {
       id: 1,
-      url: 'http://127.0.0.1:5500/Images/Portfolio/redball.png',
+      url: 'codeky2/src/Photos/redball.png',
       caption: 'Red Ball',
     },
     {
       id: 2,
-      url: 'http://127.0.0.1:5500/Images/Portfolio/lyman%20hall%20theater.png',
+      url: 'codeky2/src/Photos/lyman hall theater.png',
       caption: 'Lyman Hall Theater',
     },
     {
       id: 3,
-      url: 'http://127.0.0.1:5500/Images/Portfolio/New%20Year%20Bash.png',
+      url: 'codeky2/src/Photos/New Year Bash.png',
       caption: 'New Year Bash',
     },
     {
       id: 4,
-      url: 'https://github.com/Helasrebellion/helasrebellion.github.io/blob/main/Images/Portfolio/pandaisia%20chocolates%20home.png?raw=true',
+      url: 'codeky2/src/Photos/pandaisia chocolates home.png',
       caption: 'Pandaisia Chocolates',
     },
     {
       id: 5,
-      url: 'https://github.com/Helasrebellion/helasrebellion.github.io/blob/main/Images/Portfolio/sylviasbasiccalc.png?raw=true',
+      url: 'codeky2/src/Photos/sylviasbasiccalc.png',
       caption: 'Java Calculator',
     },
   ];
@@ -106,7 +106,7 @@ const Footer = () => {
           className="socialButton"
         >
           <img
-            src="https://cdn-icons-png.flaticon.com/128/25/25231.png"
+            src="codeky2\src\Photos\github.svg"
             alt="githublogo"
             style={{ width: '30px', height: '50px' }}
           />
@@ -118,7 +118,7 @@ const Footer = () => {
           className="socialButton"
         >
           <img
-            src="https://cdn-icons-png.flaticon.com/128/2111/2111532.png"
+            src="codeky2\src\Photos\linkedin.svg"
             alt="linkedinlogo"
             style={{ width: '30px', height: '50px' }}
           />
@@ -130,7 +130,7 @@ const Footer = () => {
           className="socialButton"
         >
           <img
-            src="https://cdn-icons-png.flaticon.com/128/1384/1384031.png"
+            src="codeky2\src\Photos\instagram.svg"
             alt="instagramlogo"
             style={{ width: '30px', height: '50px' }}
           />
@@ -140,7 +140,7 @@ const Footer = () => {
           className="socialButton"
         >
           <img
-            src="https://cdn-icons-png.flaticon.com/128/739/739257.png"
+            src="codeky2\src\Photos\twitter.svg"
             alt="twitterlogo"
             style={{ width: '30px', height: '50px' }}
           />
@@ -149,7 +149,7 @@ const Footer = () => {
       <p className="centeredfooter">
         <img
           id="logofooter"
-          src="https://helasrebellion.github.io/Images/Logo/smlogo.png"
+          src="codeky2\src\Photos\smlogo.png"
           alt="freelancelogo"
         />
       </p>
@@ -220,16 +220,16 @@ const LandingPage = ({ imageUrls }) => {
 
 const App1 = () => {
   const imageUrls = [
-    'http://127.0.0.1:5500/Images/Logo/html.png',
-    'http://127.0.0.1:5500/Images/Logo/java-programming-language.png',
-    'http://127.0.0.1:5500/Images/Logo/css.png',
-    'http://127.0.0.1:5500/Images/Logo/c.png',
-    'http://127.0.0.1:5500/Images/Logo/javascript.png',
-    'http://127.0.0.1:5500/Images/Logo/python-programming-language.png',
-    'http://127.0.0.1:5500/Images/Logo/react-js.png',
-    'http://127.0.0.1:5500/Images/Logo/go-programming-language.png',
-    'http://127.0.0.1:5500/Images/Logo/php_PNG23.png',
-    'http://127.0.0.1:5500/Images/Logo/mysql_PNG23.png',
+    'codeky2/src/Photos/html.png',
+    'codeky2/src/Photos/java-programming-language.png',
+    'codeky2/src/Photos/css.png',
+    'codeky2/src/Photos/c.png',
+    'codeky2/src/Photos/javascript.png',
+    'codeky2/src/Photos/python-programming-language.png',
+    'codeky2/src/Photos/react-js.png',
+    'codeky2/src/Photos/go-programming-language.png',
+    'codeky2/src/Photos/php_PNG23.png',
+    'codeky2/src/Photos/mysql_PNG23.png',
   ];
 
   return <LandingPage imageUrls={imageUrls} />;
