@@ -1,22 +1,10 @@
 import React, { useEffect, useState } from "react";
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {StrictMode} from 'react';
-import {createRoot} from 'react-dom/client';
-
-      {/* Requirement 1 (first set): 
-
-      Visualize data in a user friendly way. (e.g. graph, chart, etc)
-
-      && 
-
-   Requirement 2 (third set):
-
-      Develop your project using a common JavaScript framework
-      such as React, Angular, or Vue  */}
-
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom';
 
 const ProgressWithImage = ({ value, imageUrl }) => {
   return (
@@ -29,43 +17,31 @@ const ProgressWithImage = ({ value, imageUrl }) => {
   );
 };
 
-{/* Requirement 2 (first set): 
-
-             Use arrays, objects, sets or maps to store and retrieve information 
-              that is displayed in your app
-
-      && 
-
-   Requirement 2 (third set):
-
-      Develop your project using a common JavaScript framework
-      such as React, Angular, or Vue  */}
-
 const ImageGallery = () => {
   const images = [
     {
       id: 1,
-      url: 'codeky2/src/Photos/redball.png',
+      src: "./Photos/redball.png",
       caption: 'Red Ball',
     },
     {
       id: 2,
-      url: 'codeky2/src/Photos/lyman hall theater.png',
+      src: "./Photos/lyman hall theater.png",
       caption: 'Lyman Hall Theater',
     },
     {
       id: 3,
-      url: 'codeky2/src/Photos/New Year Bash.png',
+      src: "./Photos/New Year Bash.png",
       caption: 'New Year Bash',
     },
     {
       id: 4,
-      url: 'codeky2/src/Photos/pandaisia chocolates home.png',
+      src: "./Photos/pandaisia chocolates home.png",
       caption: 'Pandaisia Chocolates',
     },
     {
       id: 5,
-      url: 'codeky2/src/Photos/sylviasbasiccalc.png',
+      src: "./Photos/sylviasbasiccalc.png",
       caption: 'Java Calculator',
     },
   ];
@@ -74,19 +50,13 @@ const ImageGallery = () => {
     <div className="image-gallery">
       {images.map((image) => (
         <div className="image-item" key={image.id}>
-          <img className="zoom-image" src={image.url} alt={image.caption} />
+          <img className="zoom-image" src={image.src} alt={image.caption} />
           <div className="caption">{image.caption}</div>
         </div>
       ))}
     </div>
   );
 };
-
-{/* Requirement 3 (second set): 
-
-      Retrieve data from a third-party API
-       and use it to display something within your app.  */}
-
 
 const Footer = () => {
   const handleRedirect = (url) => {
@@ -106,7 +76,7 @@ const Footer = () => {
           className="socialButton"
         >
           <img
-            src="codeky2\src\Photos\github.svg"
+            src={require('./Photos/github.svg').default}
             alt="githublogo"
             style={{ width: '30px', height: '50px' }}
           />
@@ -118,7 +88,7 @@ const Footer = () => {
           className="socialButton"
         >
           <img
-            src="codeky2\src\Photos\linkedin.svg"
+            src={require('./Photos/linkedin.svg').default}
             alt="linkedinlogo"
             style={{ width: '30px', height: '50px' }}
           />
@@ -130,7 +100,7 @@ const Footer = () => {
           className="socialButton"
         >
           <img
-            src="codeky2\src\Photos\instagram.svg"
+            src={require('./Photos/instagram.svg').default}
             alt="instagramlogo"
             style={{ width: '30px', height: '50px' }}
           />
@@ -140,7 +110,7 @@ const Footer = () => {
           className="socialButton"
         >
           <img
-            src="codeky2\src\Photos\twitter.svg"
+            src={require('./Photos/twitter.svg').default}
             alt="twitterlogo"
             style={{ width: '30px', height: '50px' }}
           />
@@ -149,7 +119,7 @@ const Footer = () => {
       <p className="centeredfooter">
         <img
           id="logofooter"
-          src="codeky2\src\Photos\smlogo.png"
+          src={require('./Photos/smlogo.png').default}
           alt="freelancelogo"
         />
       </p>
@@ -220,19 +190,20 @@ const LandingPage = ({ imageUrls }) => {
 
 const App1 = () => {
   const imageUrls = [
-    'codeky2/src/Photos/html.png',
-    'codeky2/src/Photos/java-programming-language.png',
-    'codeky2/src/Photos/css.png',
-    'codeky2/src/Photos/c.png',
-    'codeky2/src/Photos/javascript.png',
-    'codeky2/src/Photos/python-programming-language.png',
-    'codeky2/src/Photos/react-js.png',
-    'codeky2/src/Photos/go-programming-language.png',
-    'codeky2/src/Photos/php_PNG23.png',
-    'codeky2/src/Photos/mysql_PNG23.png',
+    './Photos/html.png',
+    './Photos/java-programming-language.png',
+    './Photos/css.png',
+    './Photos/c.png',
+    './Photos/javascript.png',
+    './Photos/python-programming-language.png',
+    './Photos/react-js.png',
+    './Photos/go-programming-language.png',
+    './Photos/php_PNG23.png',
+    './Photos/mysql_PNG23.png',
   ];
 
   return <LandingPage imageUrls={imageUrls} />;
 };
+
 
 ReactDOM.render(<App1 />, document.getElementById('root'));
