@@ -4,7 +4,7 @@
 
 <div align="center">
 
-| Feature                                                                                     | Difficulty |
+| Feature                                                                                     | Implementation |
 | ------------------------------------------------------------------------------------------- | ---------- |
 | Use arrays, objects, sets, or maps to store and retrieve information in your app            | Made arrays to reference images as objects        |
 | Visualize data in a user-friendly way (e.g., graph, chart, etc.)                            | Progress bars visualizing comfortability levels with a programming language       |
