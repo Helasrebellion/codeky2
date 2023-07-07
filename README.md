@@ -6,5 +6,5 @@
 | Develop your project using a common JavaScript framework such as React, Angular, or Vue    | Developed using React |
 
 
-[Link Text](codeky2\src\Photos\Screenshot 2023-06-30 170454.png)
-[Link Text](codeky2\src\Photos\Screenshot 2023-06-11 105521.png)
+[Link to screenshot1](./codeky2/src/Photos/Screenshot%202023-06-30%20170454.png)
+[Link to screenshot2](./codeky2/src/Photos/Screenshot%202023-06-11%20105521.png)
