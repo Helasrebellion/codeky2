@@ -2,6 +2,33 @@
 </div>
 <br>
 
+
+For the round two of the Web Development Course, I will be composing the start of the landing page for a personal portfolio website that I will add to as time moves on and add more elements. I wanted to make a page whereupon landing you are greeted by a hero image with a call to action and a button that will (eventually) pull up a contact form popup. I will add a responsive nav bar at some point as it is not a requirement in this project but I want the nav bar to only be visible upon passing the hero image. At some point I will add an about me, my resume page from round one recreated in react, and a blog page. For now in this project, It will show the different programming languages I know and a progress bar gauging my comfort ability in taking on a project in it. As I dont really see anyone ever really 100% knowing a language since things are ever-changing. Afterwards will be some portfolio images of projects I have done before for my associates degree. As I pursue my bachelors I will add more impressive portfolio options and make them have a GitHub button underneath showing my source code. After my portfolio images, I will have an API call that will pull my GitHub Contributions and update it as my contributions increase. Finally, a footer, with my social media links as buttons. 
+<br>
+<br>
+<br>
+
+<div align="center">
+Your application must have a responsive design through the use of media queries, CSS Grid, Flexbox, and/or other similar approaches -<br>
+we need to ensure that you can integrate your new JavaScript skills with your HTML/CSS skills you previously learned.<br>
+We will test your site on at least two different screen sizes (mobile and desktop) and must see that you’ve incorporated some element of responsive design to it. <br>
+<br>
+
+Project is uploaded to your GitHub repository and shows at minimum 5 separate commits.<br>
+Using GitHub’s file uploader does not count as a check-in. <br>
+You must upload via Git command line.<br>
+<br>
+
+Choose at least 3 items on the FEATURES LIST below and implement them in your project<br>
+You need to pick two (2) from the first set of features.<br>
+You need to pick one (1) from the second set of features.<br>
+You must integrate a third-party (external) API into your project.<br>
+We recommend you pick a 4th item (or more!) to add, just in case something goes wrong with one of your other items - 3 is only the minimum requirement.<br>
+</div>
+<br>
+<br>
+<br>
+
 <div align="center">
 
 | Feature                                                                                     | Implementation |
