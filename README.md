@@ -7,5 +7,6 @@
 
 
 
-![Screenshot1](./codeky2/src/Photos/Screenshot%202023-06-11%20105521.png)
-![Screenshot2](./codeky2/src/Photos/Screenshot%202023-06-30%20170454.png)
+![Screenshot1](./codeky2/src/Photos/screenshot1.png)
+![Screenshot2](./codeky2/src/Photos/screenshot2.png)
+
