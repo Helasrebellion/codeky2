@@ -6,27 +6,27 @@ const ImageGallery = () => {
   const images = [
     {
       id: 1,
-      src: "./Photos/redball.png",
+      src: "/Photos/redball.png",
       caption: 'Red Ball',
     },
     {
       id: 2,
-      src: "./Photos/lyman hall theater.png",
+      src: "/Photos/lyman hall theater.png",
       caption: 'Lyman Hall Theater',
     },
     {
       id: 3,
-      src: "./Photos/New Year Bash.png",
+      src: "/Photos/New Year Bash.png",
       caption: 'New Year Bash',
     },
     {
       id: 4,
-      src: "./Photos/pandaisia chocolates home.png",
+      src: "/Photos/pandaisia chocolates home.png",
       caption: 'Pandaisia Chocolates',
     },
     {
       id: 5,
-      src: './Photos/sylviasbasiccalc.png',
+      src: '/Photos/sylviasbasiccalc.png',
       caption: 'Java Calculator',
     },
   ];
