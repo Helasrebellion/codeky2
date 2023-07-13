@@ -68,7 +68,7 @@ const Footer = () => {
       <p className="centeredfooter">
         <img
           id="logofooter"
-          src={require('./Photos/smlogo.png'.default)}
+          src={require('codeky2/src/photos/smlogo.png'.default)}
           alt="freelancelogo"
         />
       </p>

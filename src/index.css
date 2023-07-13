@@ -12,7 +12,7 @@ body {
 .hero {
   width: 100%;
   height: 100vh;
-  background-image: url('../Photos/Landingpage.gif');
+ /* background-image: url('/public/Landingpage.gif'); */
   background-size: cover;
   background-position: center;
   display: flex;
