@@ -23,7 +23,7 @@ const Footer = () => {
           className="socialButton"
         >
           <img
-            src={require('codeky2/src/photos/github.svg'.default)}
+            src={require('./photos/github.svg').default}
             alt="githublogo"
             style={{ width: '30px', height: '50px' }}
           />
@@ -35,7 +35,7 @@ const Footer = () => {
           className="socialButton"
         >
           <img
-            src={require('codeky2/src/photos/linkedin.svg'.default)}
+            src={require('./photos/linkedin.svg').default}
             alt="linkedinlogo"
             style={{ width: '30px', height: '50px' }}
           />
@@ -47,7 +47,7 @@ const Footer = () => {
           className="socialButton"
         >
           <img
-            src={require('codeky2/src/photos/instagram.svg'.default)}
+            src={require('./photos/instagram.svg').default}
             alt="instagramlogo"
             style={{ width: '30px', height: '50px' }}
           />
@@ -59,7 +59,7 @@ const Footer = () => {
           className="socialButton"
         >
           <img
-            src={require('codeky2/src/photos/twitter.svg'.default)}
+            src={require('./photos/twitter.svg').default}
             alt="twitterlogo"
             style={{ width: '30px', height: '50px' }}
           />
@@ -68,7 +68,7 @@ const Footer = () => {
       <p className="centeredfooter">
         <img
           id="logofooter"
-          src={require('codeky2/src/photos/smlogo.png'.default)}
+          src={require('./photos/smlogo.png').default}
           alt="freelancelogo"
         />
       </p>

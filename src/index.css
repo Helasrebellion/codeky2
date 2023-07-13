@@ -12,7 +12,7 @@ body {
 .hero {
   width: 100%;
   height: 100vh;
- /* background-image: url('/public/Landingpage.gif'); */
+  background-image: url('./photos/Landingpage.gif'); 
   background-size: cover;
   background-position: center;
   display: flex;
@@ -63,7 +63,7 @@ body {
     height: 200%;
     opacity: 1;
   }
-  
+
   .contact-button:focus::after {
     width: 200%;
     height: 200%;
