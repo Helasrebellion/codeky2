@@ -1,5 +1,8 @@
 import React from 'react';
 
+import smLogo from './photos/smlogo.png';
+
+
 // Footer component
 const Footer = () => {
   // Handle the redirection to external URLs
@@ -68,7 +71,7 @@ const Footer = () => {
       <p className="centeredfooter">
         <img
           id="logofooter"
-          src={require('./photos/smlogo.png').default}
+          src={smLogo}
           alt="freelancelogo"
         />
       </p>
