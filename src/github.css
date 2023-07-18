@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.github-events-container {
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.event-summary {
+    text-align: center;
+    color: #c9d1d9;
+}
+
+.github-contrib-chart {
+    margin-top: 20px;
+}
+
+.color-gitlab-0 {
+    fill: #c9d1d9;
+}
+
+.color-gitlab-05 {
+    fill: #e23232;
+}
+
+.color-gitlab-10 {
+    fill: #c49161;
+}
+
+.color-gitlab-20 {
+    fill: #b9c45a;
+}
+
+.color-gitlab-30 {
+    fill: #5cb479;
+}
+
+.color-gitlab-40 {
+    fill: #35a6da;
+}
+
+.color-gitlab-50 {
+    fill: #1311a1;
+}
+
+.color-gitlab-100 {
+    fill: #5a18c4;
+}
