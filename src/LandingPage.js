@@ -44,8 +44,8 @@ const LandingPage = ({ imageUrls }) => {
 
 <div id="content" className={showContent ? 'show-content' : ''}>
 
-<div>
-          <h1 style={{ textAlign: 'center' }}>Sylvia Mullins</h1>
+<div id="aboutMe">
+          <h1 style={{ textAlign: 'center', paddingTop: '100px' }}>Sylvia Mullins</h1>
 
           <img
             src="/Photos/shm.png"
@@ -56,24 +56,26 @@ const LandingPage = ({ imageUrls }) => {
               borderRadius: '50%',
               display: 'block',
               margin: '0 auto',
+              paddingTop: '100px',
+              paddingBottom: '100px',
             }}
           />
-          <p>
+          <p className="about">
             Hello, I'm Sylvia, a highly skilled and passionate full-stack developer located in the vibrant Cincinnati metropolitan area.
             From an early age, I discovered my love for web development when I created my first website as a hobby in middle school.
             Little did I know then that it would evolve into a lifelong professional pursuit.
           </p>
-          <p>
+          <p className="about">
             Driven by my passion, I decided to further hone my skills by pursuing formal education. In May 2022, I proudly obtained my associate's degree,
             providing me with a solid foundation in the principles and practices of web development. However, my thirst for knowledge and growth remains unquenchable,
             as I am currently on a journey towards a bachelor's degree of science in C# software development, further expanding my expertise and understanding in this dynamic field.
           </p>
-          <p>
+          <p className="about">
             What sets me apart is my unwavering commitment to excellence and my meticulous attention to detail. Every line of code I write is a testament to my dedication
             and passion for creating exceptional web experiences. I thrive in collaborative environments, leveraging my strong communication skills to work effectively with
             cross-functional teams and deliver outstanding results.
           </p>
-          <p>
+          <p className="about">
             If you are seeking a dependable professional who not only possesses technical prowess but also genuinely loves what they do,
             I invite you to reach out to me. Let's connect and discuss how I can contribute to your organization's success. I am eagerly looking
             forward to the opportunity to collaborate with like-minded individuals and create impactful digital solutions together.
@@ -96,6 +98,8 @@ const LandingPage = ({ imageUrls }) => {
       </div>
 
       <h3>/* Stay Connected: Follow Me on Github! */</h3>
+
+
       <Footer />
     </div>
   );

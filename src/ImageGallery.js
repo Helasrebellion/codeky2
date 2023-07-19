@@ -4,6 +4,7 @@ import React from 'react';
 const ImageGallery = () => {
   // Array of images with captions
   const images = [
+    // The order of the images should match the desired layout
     {
       id: 1,
       src: "/Photos/redball.png",
@@ -26,6 +27,12 @@ const ImageGallery = () => {
     },
     {
       id: 5,
+      src: "/Photos/pandaisia chocolates about company.png",
+      caption: 'Pandaisia Chocolates',
+    },
+
+    {
+      id: 6,
       src: '/Photos/sylviasbasiccalc.png',
       caption: 'Java Calculator',
     },
@@ -39,8 +46,6 @@ const ImageGallery = () => {
           {/* Image */}
           <img className="zoom-image" src={image.src} alt={image.caption} />
 
-          {/* Caption */}
-          <div className="caption">{image.caption}</div>
         </div>
       ))}
     </div>
