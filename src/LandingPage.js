@@ -9,7 +9,7 @@ import BlogList from './BlogList';
 
 const LandingPage = ({ imageUrls }) => {
   const [showContent, setShowContent] = useState(false);
-  const presetValues = [100, 80, 100, 15, 100, 40, 30, 45, 50, 60];
+  const presetValues = [100, 80, 100, 15, 100, 40, 50, 45, 50, 60];
 
   useEffect(() => {
     const handleScroll = () => {
