@@ -100,3 +100,41 @@ button:hover {
   text-align: center;
   margin-bottom: 20px;
 }
+
+/* Show the close button always for mobile, tablet, and phone views in both portrait and landscape */
+@media (max-width: 991px) and (orientation: portrait),
+       (max-width: 767px) and (orientation: landscape) {
+  .close-btn-inside {
+    display: block;
+  }
+}
+
+/* Hide the close button for larger views like desktop screens */
+@media (min-width: 992px) {
+  .close-btn-inside {
+    display: none;
+  }
+}
+
+
+/* Hide the close button for larger views like desktop screens */
+@media (min-width: 992px) {
+  .close-btn-inside {
+    display: none;
+  }
+}
+
+/* Show the close button always for mobile, tablet, and iPad views */
+@media (max-width: 1199px) {
+  .close-btn-inside {
+    display: block;
+  }
+}
+
+/* Hide the close button for larger views like desktop screens */
+@media (min-width: 1200px) {
+  .close-btn-inside {
+    display: none;
+  }
+}
+
