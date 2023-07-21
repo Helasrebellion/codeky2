@@ -4,6 +4,8 @@ import ImageGallery from './ImageGallery';
 import Footer from './Footer';
 import './index.css';
 import ContactForm from './ContactForm';
+import BlogList from './BlogList';
+
 
 const LandingPage = ({ imageUrls }) => {
   const [showContent, setShowContent] = useState(false);
@@ -97,7 +99,9 @@ const LandingPage = ({ imageUrls }) => {
         <ImageGallery />
       </div>
 
-      <h3>/* Stay Connected: Follow Me on Github! */</h3>
+      <h3>/* Coding Chronicles: A Collection of Blogs on Learning and Mastering the Craft. */</h3>
+
+      <BlogList />
 
 
       <Footer />

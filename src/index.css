@@ -350,6 +350,19 @@ h3 {
 
 }
 
+
+.blog-content img {
+  max-width: 100%; /* Adjust this value as needed */
+}
+
+/* Add the following media query to make images half-size on mobile devices */
+@media (max-width: 768px) {
+  .blog-content img {
+    max-width: 50%; /* Adjust this value as needed */
+  }
+}
+
+
 /* Media queries for tablet */
 @media (min-width: 768px) and (max-width: 1023px) {
   .progress-bars-container {

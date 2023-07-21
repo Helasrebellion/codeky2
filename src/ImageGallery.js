@@ -2,9 +2,7 @@ import React from 'react';
 
 // ImageGallery component
 const ImageGallery = () => {
-  // Array of images with captions
   const images = [
-    // The order of the images should match the desired layout
     {
       id: 1,
       src: "/Photos/redball.png",
