@@ -10,7 +10,7 @@ import BlogList from './BlogList';
 const LandingPage = ({ imageUrls }) => {
   const [showContent, setShowContent] = useState(false);
   const presetValues = [100, 80, 100, 15, 100, 40, 30, 45, 50, 60];
-  
+
   useEffect(() => {
     const handleScroll = () => {
       const contentElement = document.getElementById('content');
@@ -33,20 +33,20 @@ const LandingPage = ({ imageUrls }) => {
     <div>
       <div className="hero">
 
-<div className="hero-content">
-  <h1>Crafting Meaningful Experiences Through Technology!</h1>
-  <h2>
-    Whether you're a business seeking innovation or an employer looking
-    to hire, let's collaborate to bring your vision to life. Get in
-    touch with me today!
-  </h2>
-  <ContactForm />
-</div>
-</div>
+        <div className="hero-content">
+          <h1>Crafting Meaningful Experiences Through Technology!</h1>
+          <h2>
+            Whether you're a business seeking innovation or an employer looking
+            to hire, let's collaborate to bring your vision to life. Get in
+            touch with me today!
+          </h2>
+          <ContactForm />
+        </div>
+      </div>
 
-<div id="content" className={showContent ? 'show-content' : ''}>
+      <div id="content" className={showContent ? 'show-content' : ''}>
 
-<div id="aboutMe">
+        <div id="aboutMe">
           <h1 style={{ textAlign: 'center', paddingTop: '100px' }}>Sylvia Mullins</h1>
 
           <img

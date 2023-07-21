@@ -17,7 +17,6 @@ function ContactForm() {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-    // Add email address validation logic here
     if (!validateEmail(formData.email)) {
       alert('Please enter a valid email address!');
       return;
@@ -56,7 +55,7 @@ function ContactForm() {
 
   const closeModal = () => {
     setShowModal(false);
-    document.body.style.overflow = 'auto'; 
+    document.body.style.overflow = 'auto';
   };
 
   const openModal = () => {
@@ -66,7 +65,6 @@ function ContactForm() {
 
   return (
     <div>
-      {/* Button to open the contact form */}
       <button className="contact-button" onClick={openModal}>
         Contact Me!
       </button>

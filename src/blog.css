@@ -1,80 +1,79 @@
 /* Styles for images inside the blog post content */
 .blog-content img {
-    max-width: 100%; 
-  }
-  
-  /* Media query to make images half-size on mobile devices */
-  @media (max-width: 768px) {
+    max-width: 100%;
+}
+
+/* Media query to make images half-size on mobile devices */
+@media (max-width: 768px) {
     .blog-content img {
-      max-width: 50%; 
+        max-width: 50%;
     }
-  
+
     /* Two-column layout for the latest blog posts in mobile view */
     .blog-posts-container {
-      grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
-  
+
     .blog-post-content {
-      max-height: 70vh; 
-      overflow-y: auto;
+        max-height: 70vh;
+        overflow-y: auto;
     }
-  }
-  
-  /* Three-column layout for the latest blog posts in desktop view */
-  @media (min-width: 769px) {
+}
+
+/* Three-column layout for the latest blog posts in desktop view */
+@media (min-width: 769px) {
     .blog-posts-container {
-      grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
-  }
-  
-  .blog-posts-container {
+}
+
+.blog-posts-container {
     display: grid;
-    grid-gap: 10px; 
+    grid-gap: 10px;
     max-width: 800px;
     margin: 0 auto;
-  }
-  
-  .blog-post-item {
+}
+
+.blog-post-item {
     background-color: #25a18e;
     padding: 10px;
     border-radius: 5px;
     text-align: center;
-  }
-  
-  .blog-post-item a {
+}
+
+.blog-post-item a {
     text-decoration: underline;
     color: #fff;
-  }
-  
-  .blog-post-item:hover {
+}
+
+.blog-post-item:hover {
     background-color: #1d6b5f;
-  }
-  
-  .blog-post-content {
+}
+
+.blog-post-content {
     overflow-wrap: break-word;
     word-wrap: break-word;
     hyphens: auto;
-    font-size: 16px; 
-  }
-  
-  
-  @media (min-width: 768px) {
+    font-size: 16px;
+}
+
+
+@media (min-width: 768px) {
     .blog-post-content {
-      font-size: 16px; 
+        font-size: 16px;
     }
-  }
-  
-  
-  @media (max-width: 768px) {
+}
+
+
+@media (max-width: 768px) {
     .blog-post-inner {
-      padding: 10px; 
-      margin: 0 auto; 
+        padding: 10px;
+        margin: 0 auto;
     }
-  
+
     /* Allow horizontal scrolling in mobile view */
     .blog-content {
-      overflow-x: auto;
-      padding-right: 15px; 
+        overflow-x: auto;
+        padding-right: 15px;
     }
-  }
-  
+}
