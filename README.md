@@ -14,7 +14,19 @@
 <div style="text-align:center">  <h2>Overview</h2>
 </div>
 
-For the round two of the Web Development Course, I will be composing the start of the landing page for a personal portfolio website that I will add to as time moves on and add more elements. I wanted to make a page whereupon landing you are greeted by a hero image with a call to action and a button that will (eventually) pull up a contact form popup. I will add a responsive nav bar at some point as it is not a requirement in this project but I want the nav bar to only be visible upon passing the hero image. At some point I will add an about me, my resume page from round one recreated in react, and a blog page. For now in this project, It will show the different programming languages I know and a progress bar gauging my comfort ability in taking on a project in it. As I dont really see anyone ever really 100% knowing a language since things are ever-changing. Afterwards will be some portfolio images of projects I have done before for my associates degree. As I pursue my bachelors I will add more impressive portfolio options and make them have a GitHub button underneath showing my source code. After my portfolio images, I will have an API call that will pull my Wordpress blog posts and update it as I post. Finally, a footer, with my social media links as buttons. 
+For the round two of the Web Development Course, I will be composing the start of the landing page for a personal portfolio website that I will add to as time moves on and add more elements. 
+<br>
+I wanted to make a page whereupon landing you are greeted by a hero image with a call to action and a button that will pull up a contact form popup, after project is graded I will add a backend golang functionality to it.
+<br>
+ I will add a responsive nav bar at some point as it is not a requirement in this project but I want the nav bar to only be visible upon passing the hero image. 
+ <br>
+ For now in this project, It will show the different programming languages I know and a progress bar gauging my comfort ability in taking on a project in it. As I dont really see anyone ever really 100% knowing a language since things are ever-changing. 
+ <br>
+ Next will be some portfolio images of projects I have done before for my associates degree. As I pursue my bachelors I will add more impressive portfolio options and make them have a GitHub button underneath showing my source code. 
+ <br>
+ After my portfolio images, I will have an API call that will pull my Wordpress blog posts and update it as I post. 
+ <br>
+ Finally, a footer, with my social media links as buttons. 
 <br>
 <br>
 <br>

@@ -107,7 +107,6 @@ button:hover {
     display: block;
   }
   
-  /* Adjust the size of the modal for better visibility */
   .modal {
     max-width: 400px;
     width: 90%;
@@ -117,8 +116,7 @@ button:hover {
   }
 }
 
-/* Style the scrollbar to be invisible */
-.modal::-webkit-scrollbar {
+ .modal::-webkit-scrollbar {
   width: 0.5em;
 }
 
@@ -127,6 +125,6 @@ button:hover {
 }
 
 .modal::-webkit-scrollbar-thumb {
-  background-color: rgba(0, 0, 0, 0); /* Make the scrollbar thumb transparent */
+  background-color: rgba(0, 0, 0, 0); 
 }
 
